@@ -36,7 +36,7 @@ export default function Navbar() {
             Projects
           </Link>
           <a
-            href="https://github.com/yourname"
+            href="https://github.com/mohamadamara"
             target="_blank"
             rel="noreferrer"
             className="premium-link"
@@ -44,7 +44,7 @@ export default function Navbar() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourname"
+            href="https://www.linkedin.com/in/mohamad-amara-78b147377/"
             target="_blank"
             rel="noreferrer"
             className="premium-link"
@@ -92,7 +92,7 @@ export default function Navbar() {
               Projects
             </Link>
             <a
-              href="https://github.com/yourname"
+              href="https://github.com/mohamadamara"
               target="_blank"
               rel="noreferrer"
               onClick={() => setOpen(false)}
@@ -101,7 +101,7 @@ export default function Navbar() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourname"
+              href="https://www.linkedin.com/in/mohamad-amara-78b147377/"
               target="_blank"
               rel="noreferrer"
               onClick={() => setOpen(false)}

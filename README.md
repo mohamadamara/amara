@@ -63,7 +63,7 @@ scripts/gen-images.js      → Regenerates the SVG covers
 - **Theme** — accent colors and shadows live in [`tailwind.config.ts`](tailwind.config.ts) (`accent`, `accent-bright`, `accent2`). Project cover images follow the same palette — regenerate them with `node scripts/gen-images.js` after changing hues.
 - **Marquee items** — edit the `techs` array in [`components/TechMarquee.tsx`](components/TechMarquee.tsx).
 - **Stats** — edit the `stats` array at the top of [`app/page.tsx`](app/page.tsx).
-- **Links** — GitHub/LinkedIn URLs still use `yourname` placeholders in `app/page.tsx`, `components/Navbar.tsx`, and `data/projects.ts`. Replace them with real profiles.
+- **Links** — profile links in the navbar, hero, CTA, and footer point to the real GitHub/LinkedIn profiles. Per-project `githubUrl` values in `data/projects.ts` still use `yourname` placeholders — point them at real repos (or remove them) as each project gets published.
 
 ## 🧱 Tech Stack
 

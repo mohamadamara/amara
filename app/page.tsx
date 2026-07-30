@@ -212,7 +212,7 @@ export default function HomePage() {
           <p>© {new Date().getFullYear()} Mohamad Aamara. Crafted with Next.js.</p>
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/yourname"
+              href="https://github.com/mohamadamara"
               target="_blank"
               rel="noreferrer"
               className="premium-link"
@@ -220,7 +220,7 @@ export default function HomePage() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourname"
+              href="https://www.linkedin.com/in/mohamad-amara-78b147377/"
               target="_blank"
               rel="noreferrer"
               className="premium-link"
