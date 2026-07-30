@@ -90,7 +90,7 @@ export default function HomePage() {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/yourname"
+                  href="https://github.com/mohamadamara"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex min-h-11 items-center gap-2 rounded-full border border-white/10 bg-white/5 px-8 py-3 text-sm font-medium text-white backdrop-blur-sm transition-all duration-300 ease-premium hover:-translate-y-0.5 hover:border-accent/40 hover:bg-accent/[0.08]"
@@ -194,7 +194,7 @@ export default function HomePage() {
                   </span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourname"
+                  href="https://www.linkedin.com/in/mohamad-amara-78b147377/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex min-h-11 items-center gap-2 rounded-full border border-white/10 bg-white/5 px-8 py-3 text-sm font-medium text-white backdrop-blur-sm transition-all duration-300 ease-premium hover:-translate-y-0.5 hover:border-accent/40 hover:bg-accent/[0.08]"
