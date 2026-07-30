@@ -70,5 +70,6 @@ scripts/gen-images.js      → Regenerates the SVG covers
 Next.js 14 (App Router) · React 18 · TypeScript · Tailwind CSS · Framer Motion 12
 
 ## 📄 Related Files
+and this is working link : https://amara-sigma.vercel.app/
 
 - [`PROFILE_README.md`](PROFILE_README.md) — the GitHub **profile** README (for a repo named after your GitHub username), designed in the same purple luxury theme as this site.
