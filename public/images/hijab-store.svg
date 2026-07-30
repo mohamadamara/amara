@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Hijab Store cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsla(36, 32%, 8%, 1)"/>
+      <stop offset="0.55" stop-color="hsla(36, 28%, 5%, 1)"/>
+      <stop offset="1" stop-color="#040406"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.18" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="hsla(36, 90%, 60%, 0.55)"/>
+      <stop offset="1" stop-color="hsla(36, 90%, 60%, 0)"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.9" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="hsla(48, 85%, 58%, 0.4)"/>
+      <stop offset="1" stop-color="hsla(48, 85%, 58%, 0)"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.07)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="hsla(36, 70%, 82%, 1)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#orbA)"/>
+  <rect width="1600" height="900" fill="url(#orbB)"/>
+
+  <!-- glass app window -->
+  <g>
+    <rect x="120" y="170" width="1360" height="600" rx="28" fill="url(#glass)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <rect x="120" y="170" width="1360" height="64" rx="28" fill="rgba(255,255,255,0.03)"/>
+    <circle cx="168" cy="202" r="8" fill="hsla(36, 80%, 62%, 1)"/>
+    <circle cx="198" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <circle cx="228" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <rect x="640" y="188" width="320" height="28" rx="14" fill="rgba(255,255,255,0.05)"/>
+    
+        
+        <g>
+          <rect x="190" y="320" width="280" height="222" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+          <path d="M330 354 c-54 0 -84 46 -84 98 v44 h168 v-44 c0 -52 -30 -98 -84 -98 z" fill="hsla(36, 45%, 32%, 0.75)" opacity="0.85"/>
+          <circle cx="330" cy="416" r="27" fill="hsla(36, 25%, 10%, 1)"/>
+          <rect x="216" y="506" width="110" height="12" rx="6" fill="hsla(36, 30%, 70%, 0.5)"/>
+          <rect x="378" y="502" width="66" height="20" rx="10" fill="rgba(255,255,255,0.10)"/>
+        </g>
+        <g>
+          <rect x="510" y="320" width="280" height="222" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+          <path d="M650 354 c-54 0 -84 46 -84 98 v44 h168 v-44 c0 -52 -30 -98 -84 -98 z" fill="hsla(36, 85%, 62%, 1)" opacity="0.95"/>
+          <circle cx="650" cy="416" r="27" fill="hsla(36, 25%, 10%, 1)"/>
+          <rect x="536" y="506" width="110" height="12" rx="6" fill="hsla(36, 30%, 70%, 0.5)"/>
+          <rect x="698" y="502" width="66" height="20" rx="10" fill="hsla(54, 80%, 64%, 1)"/>
+        </g>
+        <g>
+          <rect x="830" y="320" width="280" height="222" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)"/>
+          <path d="M970 354 c-54 0 -84 46 -84 98 v44 h168 v-44 c0 -52 -30 -98 -84 -98 z" fill="hsla(36, 45%, 32%, 0.75)" opacity="0.85"/>
+          <circle cx="970" cy="416" r="27" fill="hsla(36, 25%, 10%, 1)"/>
+          <rect x="856" y="506" width="110" height="12" rx="6" fill="hsla(36, 30%, 70%, 0.5)"/>
+          <rect x="1018" y="502" width="66" height="20" rx="10" fill="rgba(255,255,255,0.10)"/>
+        </g>
+        <g>
+          <rect x="1150" y="320" width="180" height="222" rx="16" fill="hsla(36, 55%, 28%, 0.5)"/>
+          <rect x="1174" y="352" width="132" height="12" rx="6" fill="rgba(255,255,255,0.4)"/>
+          <rect x="1174" y="384" width="100" height="10" rx="5" fill="rgba(255,255,255,0.22)"/>
+          <rect x="1174" y="412" width="112" height="10" rx="5" fill="rgba(255,255,255,0.22)"/>
+          <rect x="1174" y="480" width="132" height="36" rx="18" fill="hsla(36, 85%, 62%, 1)"/>
+        </g>
+        <rect x="190" y="580" width="780" height="58" rx="16" fill="rgba(255,255,255,0.05)"/>
+        <circle cx="226" cy="609" r="13" fill="hsla(54, 80%, 64%, 1)"/>
+        <path d="M220 609 l5 5 l9 -11" fill="none" stroke="hsla(36, 30%, 8%, 1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="256" y="602" width="240" height="14" rx="7" fill="hsla(36, 30%, 70%, 0.5)"/>
+        <rect x="1010" y="580" width="320" height="58" rx="29" fill="hsla(36, 85%, 62%, 1)" opacity="0.95"/>
+        <rect x="1052" y="602" width="180" height="14" rx="7" fill="hsla(36, 30%, 10%, 1)" opacity="0.8"/>
+        <circle cx="1290" cy="609" r="10" fill="rgba(255,255,255,0.55)"/>
+  </g>
+
+  <!-- label + title -->
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="120" y="105" font-size="26" letter-spacing="6" fill="hsla(36, 75%, 72%, 1)" font-weight="600">08 — E-COMMERCE · BOUTIQUE</text>
+    <text x="118" y="845" font-size="96" font-weight="600" letter-spacing="-3" fill="url(#title)">Hijab Store</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="AI Chatbot cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsla(38, 32%, 8%, 1)"/>
+      <stop offset="0.55" stop-color="hsla(38, 28%, 5%, 1)"/>
+      <stop offset="1" stop-color="#040406"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.18" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="hsla(38, 90%, 60%, 0.55)"/>
+      <stop offset="1" stop-color="hsla(38, 90%, 60%, 0)"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.9" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="hsla(50, 85%, 58%, 0.4)"/>
+      <stop offset="1" stop-color="hsla(50, 85%, 58%, 0)"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.07)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="hsla(38, 70%, 82%, 1)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#orbA)"/>
+  <rect width="1600" height="900" fill="url(#orbB)"/>
+
+  <!-- glass app window -->
+  <g>
+    <rect x="120" y="170" width="1360" height="600" rx="28" fill="url(#glass)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <rect x="120" y="170" width="1360" height="64" rx="28" fill="rgba(255,255,255,0.03)"/>
+    <circle cx="168" cy="202" r="8" fill="hsla(38, 80%, 62%, 1)"/>
+    <circle cx="198" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <circle cx="228" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <rect x="640" y="188" width="320" height="28" rx="14" fill="rgba(255,255,255,0.05)"/>
+    
+        <rect x="170" y="320" rx="18" width="520" height="74" fill="rgba(255,255,255,0.05)"/>
+        <rect x="170" y="320" rx="18" width="300" height="74" fill="hsla(38, 55%, 30%, 0.55)"/>
+        <rect x="640" y="430" rx="18" width="640" height="74" fill="hsla(38, 85%, 62%, 1)" opacity="0.92"/>
+        <rect x="170" y="540" rx="18" width="430" height="74" fill="rgba(255,255,255,0.05)"/>
+        <circle cx="1330" cy="360" r="6" fill="hsla(56, 80%, 64%, 1)"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- label + title -->
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="120" y="105" font-size="26" letter-spacing="6" fill="hsla(38, 75%, 72%, 1)" font-weight="600">01 — AI · ASSISTANT</text>
+    <text x="118" y="845" font-size="96" font-weight="600" letter-spacing="-3" fill="url(#title)">AI Chatbot</text>
+  </g>
+</svg>

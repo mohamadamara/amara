@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Travel Planner cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsla(32, 32%, 8%, 1)"/>
+      <stop offset="0.55" stop-color="hsla(32, 28%, 5%, 1)"/>
+      <stop offset="1" stop-color="#040406"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.18" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="hsla(32, 90%, 60%, 0.55)"/>
+      <stop offset="1" stop-color="hsla(32, 90%, 60%, 0)"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.9" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="hsla(44, 85%, 58%, 0.4)"/>
+      <stop offset="1" stop-color="hsla(44, 85%, 58%, 0)"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.07)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="hsla(32, 70%, 82%, 1)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#orbA)"/>
+  <rect width="1600" height="900" fill="url(#orbB)"/>
+
+  <!-- glass app window -->
+  <g>
+    <rect x="120" y="170" width="1360" height="600" rx="28" fill="url(#glass)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <rect x="120" y="170" width="1360" height="64" rx="28" fill="rgba(255,255,255,0.03)"/>
+    <circle cx="168" cy="202" r="8" fill="hsla(32, 80%, 62%, 1)"/>
+    <circle cx="198" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <circle cx="228" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <rect x="640" y="188" width="320" height="28" rx="14" fill="rgba(255,255,255,0.05)"/>
+    
+        <path d="M180 600 Q 420 360 620 470 T 1080 380 T 1300 460" fill="none" stroke="hsla(50, 80%, 64%, 1)" stroke-width="6" stroke-dasharray="2 16" stroke-linecap="round"/>
+        <g><circle cx="180" cy="600" r="16" fill="hsla(32, 85%, 62%, 1)"/><circle cx="180" cy="600" r="6" fill="#fff"/></g><g><circle cx="620" cy="470" r="16" fill="hsla(32, 85%, 62%, 1)"/><circle cx="620" cy="470" r="6" fill="#fff"/></g><g><circle cx="1080" cy="380" r="16" fill="hsla(32, 85%, 62%, 1)"/><circle cx="1080" cy="380" r="6" fill="#fff"/></g><g><circle cx="1300" cy="460" r="16" fill="hsla(32, 85%, 62%, 1)"/><circle cx="1300" cy="460" r="6" fill="#fff"/></g>
+        <rect x="300" y="360" width="200" height="80" rx="14" fill="rgba(255,255,255,0.05)"/><rect x="820" y="560" width="200" height="80" rx="14" fill="rgba(255,255,255,0.05)"/><rect x="1180" y="520" width="200" height="80" rx="14" fill="rgba(255,255,255,0.05)"/>
+  </g>
+
+  <!-- label + title -->
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="120" y="105" font-size="26" letter-spacing="6" fill="hsla(32, 75%, 72%, 1)" font-weight="600">07 — MAPS · PLANNER</text>
+    <text x="118" y="845" font-size="96" font-weight="600" letter-spacing="-3" fill="url(#title)">Travel Planner</text>
+  </g>
+</svg>

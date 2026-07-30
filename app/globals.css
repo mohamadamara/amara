@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  border-color: rgb(255 255 255 / 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg font-sans text-white antialiased tracking-normal;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img {
+  @apply select-none;
+}
+
+::selection {
+  background: rgb(245 158 11 / 0.3);
+  color: #fff;
+}
+
+a,
+button {
+  @apply transition-all duration-300 ease-premium;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  @apply outline-none ring-2 ring-accent/50 ring-offset-2 ring-offset-bg;
+}
+
+.section-gap {
+  @apply py-20 md:py-24;
+}
+
+.eyebrow {
+  @apply text-[11px] font-medium uppercase tracking-[0.2em] text-muted;
+}
+
+.premium-link {
+  @apply relative inline-flex items-center text-sm font-medium text-white/90 hover:text-white;
+}
+
+.premium-link::after {
+  content: "";
+  @apply absolute -bottom-1 left-0 right-0 mx-auto h-[2px] w-full origin-center scale-x-0 bg-accent transition-transform duration-300 ease-premium;
+}
+
+.premium-link:hover::after,
+.premium-link[data-active="true"]::after {
+  @apply scale-x-100;
+}
+
+.page-fade {
+  animation: pageFade 180ms ease-premium;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    #fde68a 30%,
+    #f59e0b 50%,
+    #fde68a 70%,
+    #ffffff 100%
+  );
+  background-size: 200% auto;
+  animation: textShimmer 6s ease-in-out infinite;
+}
+
+@keyframes textShimmer {
+  0%,
+  100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+}
+
+.marquee-track {
+  animation: marqueeScroll 32s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-gradient {
+  background-image: linear-gradient(
+    135deg,
+    #b45309,
+    #f59e0b,
+    #fde68a,
+    #f97316,
+    #f59e0b,
+    #b45309
+  );
+  background-size: 300% 300%;
+  animation: gradientCycle 8s ease-in-out infinite;
+}
+
+@keyframes gradientCycle {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.nav-enter {
+  animation: navDrop 600ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@keyframes navDrop {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(ellipse 90% 65% at 50% 0%, black 25%, transparent 78%);
+  mask-image: radial-gradient(ellipse 90% 65% at 50% 0%, black 25%, transparent 78%);
+}
+
+.glow-orb {
+  animation: orbFloat 9s ease-in-out infinite;
+}
+
+@keyframes orbFloat {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.75;
+  }
+  50% {
+    transform: translateY(-16px) scale(1.06);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-orb,
+  .text-gradient,
+  .marquee-track,
+  .nav-enter,
+  .logo-gradient {
+    animation: none;
+  }
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes pageFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

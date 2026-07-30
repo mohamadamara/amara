@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="AI Accident Forensics cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="hsla(18, 32%, 8%, 1)"/>
+      <stop offset="0.55" stop-color="hsla(18, 28%, 5%, 1)"/>
+      <stop offset="1" stop-color="#040406"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.18" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="hsla(18, 90%, 60%, 0.55)"/>
+      <stop offset="1" stop-color="hsla(18, 90%, 60%, 0)"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.9" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="hsla(30, 85%, 58%, 0.4)"/>
+      <stop offset="1" stop-color="hsla(30, 85%, 58%, 0)"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.07)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="hsla(18, 70%, 82%, 1)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#orbA)"/>
+  <rect width="1600" height="900" fill="url(#orbB)"/>
+
+  <!-- glass app window -->
+  <g>
+    <rect x="120" y="170" width="1360" height="600" rx="28" fill="url(#glass)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <rect x="120" y="170" width="1360" height="64" rx="28" fill="rgba(255,255,255,0.03)"/>
+    <circle cx="168" cy="202" r="8" fill="hsla(18, 80%, 62%, 1)"/>
+    <circle cx="198" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <circle cx="228" cy="202" r="8" fill="rgba(255,255,255,0.22)"/>
+    <rect x="640" y="188" width="320" height="28" rx="14" fill="rgba(255,255,255,0.05)"/>
+    
+        <g>
+          <rect x="215" y="335" width="190" height="290" rx="48" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+          <rect x="250" y="398" width="120" height="82" rx="14" fill="rgba(255,255,255,0.08)"/>
+          <rect x="250" y="504" width="120" height="60" rx="12" fill="rgba(255,255,255,0.05)"/>
+          <circle cx="242" cy="362" r="36" fill="hsla(18, 85%, 62%, 1)" opacity="0.5"/>
+          <circle cx="242" cy="362" r="16" fill="hsla(18, 85%, 62%, 1)"/>
+          <path d="M132 296 L218 348" stroke="hsla(36, 80%, 64%, 1)" stroke-width="6" stroke-linecap="round"/>
+          <path d="M206 328 L224 352 L198 354 z" fill="hsla(36, 80%, 64%, 1)"/>
+        </g>
+        
+        <g>
+          <rect x="446" y="346" width="22" height="22" rx="7" fill="rgba(255,255,255,0.08)"/>
+          <rect x="482" y="349" width="210" height="16" rx="8" fill="hsla(18, 85%, 62%, 1)" opacity="0.95"/>
+        </g>
+        <g>
+          <rect x="446" y="394" width="22" height="22" rx="7" fill="rgba(255,255,255,0.08)"/>
+          <rect x="482" y="397" width="148" height="16" rx="8" fill="hsla(18, 30%, 70%, 0.5)" opacity="0.5"/>
+        </g>
+        <g>
+          <rect x="446" y="442" width="22" height="22" rx="7" fill="rgba(255,255,255,0.08)"/>
+          <rect x="482" y="445" width="86" height="16" rx="8" fill="hsla(18, 30%, 70%, 0.5)" opacity="0.5"/>
+        </g>
+        <g>
+          <path d="M1090 498 A110 110 0 0 1 1310 498" fill="none" stroke="rgba(255,255,255,0.10)" stroke-width="16" stroke-linecap="round"/>
+          <path d="M1090 498 A110 110 0 0 1 1244 404" fill="none" stroke="hsla(18, 85%, 62%, 1)" stroke-width="16" stroke-linecap="round"/>
+          <line x1="1200" y1="498" x2="1254" y2="418" stroke="hsla(36, 80%, 64%, 1)" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="1200" cy="498" r="10" fill="hsla(36, 80%, 64%, 1)"/>
+          <rect x="1140" y="522" width="120" height="34" rx="17" fill="hsla(18, 55%, 28%, 0.6)"/>
+          <rect x="1162" y="534" width="76" height="10" rx="5" fill="rgba(255,255,255,0.5)"/>
+        </g>
+        
+        <g>
+          <rect x="470" y="520" width="560" height="28" rx="10" fill="rgba(255,255,255,0.045)"/>
+          <circle cx="492" cy="534" r="7" fill="hsla(36, 80%, 64%, 1)"/>
+          <rect x="512" y="528" width="380" height="12" rx="6" fill="hsla(18, 30%, 70%, 0.5)"/>
+          <rect x="960" y="528" width="50" height="12" rx="6" fill="rgba(255,255,255,0.18)"/>
+        </g>
+        <g>
+          <rect x="470" y="560" width="560" height="28" rx="10" fill="rgba(255,255,255,0.045)"/>
+          <circle cx="492" cy="574" r="7" fill="hsla(18, 85%, 62%, 1)"/>
+          <rect x="512" y="568" width="310" height="12" rx="6" fill="hsla(18, 30%, 70%, 0.5)"/>
+          <rect x="960" y="568" width="50" height="12" rx="6" fill="hsla(18, 85%, 62%, 1)"/>
+        </g>
+        <g>
+          <rect x="470" y="600" width="560" height="28" rx="10" fill="rgba(255,255,255,0.045)"/>
+          <circle cx="492" cy="614" r="7" fill="rgba(255,255,255,0.35)"/>
+          <rect x="512" y="608" width="380" height="12" rx="6" fill="hsla(18, 30%, 70%, 0.5)"/>
+          <rect x="960" y="608" width="50" height="12" rx="6" fill="rgba(255,255,255,0.18)"/>
+        </g>
+  </g>
+
+  <!-- label + title -->
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="120" y="105" font-size="26" letter-spacing="6" fill="hsla(18, 75%, 72%, 1)" font-weight="600">10 — AI · FORENSICS</text>
+    <text x="118" y="845" font-size="96" font-weight="600" letter-spacing="-3" fill="url(#title)">AI Accident Forensics</text>
+  </g>
+</svg>
